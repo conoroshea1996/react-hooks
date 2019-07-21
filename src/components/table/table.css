@@ -1,0 +1,21 @@
+table {
+  border: solid 4px black;
+  background: lightgray;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: rgb(120, 128, 128);
+}
+tr:nth-child(odd) {
+  color: rgb(45, 48, 48);
+}
+tr:nth-child(odd) button {
+  color: rgb(45, 48, 48) !important;
+  border: 2px solid rgb(45, 48, 48);
+}
+button {
+  color: white !important;
+  border-color: white;
+  margin: 5px !important;
+}
